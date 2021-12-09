@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Encuentralo">
         <activity
+            android:name=".MainActivity2"
+            android:label="Selecciona Categoria"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
