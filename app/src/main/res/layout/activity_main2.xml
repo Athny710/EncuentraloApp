@@ -64,7 +64,7 @@
         android:id="@+id/textView2"
         android:layout_width="231dp"
         android:layout_height="34dp"
-        android:text="TextView"
+        android:text="Escoja su Opcion"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="47dp"
         tools:ignore="MissingConstraints" />
