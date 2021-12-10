@@ -318,18 +318,6 @@
         app:layout_constraintVertical_bias="0.111" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="127dp"
-        android:layout_height="105dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.246"
-        app:srcCompat="@drawable/chilis_logo_a" />
-
-    <ImageView
         android:id="@+id/imageView12"
         android:layout_width="114dp"
         android:layout_height="90dp"
@@ -437,6 +425,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.375" />
+
+    <ImageButton
+        android:id="@+id/btnchilis"
+        android:layout_width="114dp"
+        android:layout_height="90dp"
+        android:background="@drawable/chilis_logo_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

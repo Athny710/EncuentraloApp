@@ -14,9 +14,11 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity5"
+            android:parentActivityName=".FourActivity"
             android:exported="false" />
         <activity
             android:name=".FourActivity"
+            android:parentActivityName=".ThirdActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

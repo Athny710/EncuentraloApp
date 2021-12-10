@@ -19,11 +19,11 @@ class FourActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
-        /*
+
         binding.btEncontrar.setOnClickListener {
-            val myIntent = Intent(this, FiftActivity::class.java)
+            val myIntent = Intent(this, MainActivity5::class.java)
             startActivity(myIntent)
         }
-         */
+
     }
 }
