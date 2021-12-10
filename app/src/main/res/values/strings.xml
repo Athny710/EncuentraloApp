@@ -17,4 +17,8 @@
     <string name="img2_descrition">IMG2</string>
     <string name="img3_descrition">IMG3</string>
 
+    <string name="calificacion_zona">Califica la zona:</string>
+    <string name="calificacion_exp">Califica tu experiencia:</string>
+    <string name="bt_enviar">Enviar</string>
+
 </resources>
