@@ -10,46 +10,55 @@
         android:id="@+id/imageButton2"
         android:layout_width="408dp"
         android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
         app:srcCompat="@drawable/desayuno"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="108dp" />
+        tools:layout_editor_absoluteX="1dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="411dp"
         android:layout_height="111dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
         app:srcCompat="@drawable/restau"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteX="-3dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="414dp"
         android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/farma"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteX="-3dp" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="416dp"
         android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681"
         app:srcCompat="@drawable/bar"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="418dp" />
+        tools:layout_editor_absoluteX="-4dp" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="413dp"
         android:layout_height="94dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839"
         app:srcCompat="@drawable/entre"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="535dp" />
+        tools:layout_editor_absoluteX="-4dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -65,8 +74,10 @@
         android:layout_width="231dp"
         android:layout_height="34dp"
         android:text="Escoja su Opcion"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
