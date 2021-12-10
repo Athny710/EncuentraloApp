@@ -5,7 +5,13 @@
       <map>
         <entry key="..\:/Android Projects/EncuentraloApp/app/src/main/res/layout/activity_four.xml" value="0.33" />
         <entry key="..\:/Android Projects/EncuentraloApp/app/src/main/res/layout/activity_main.xml" value="0.2753623188405797" />
+<<<<<<< HEAD
         <entry key="..\:/Android Projects/EncuentraloApp/app/src/main/res/layout/activity_third.xml" value="0.25" />
+=======
+        <entry key="..\:/Users/MAJO/AndroidStudioProjects/EncuentraloApp/app/src/main/res/layout/activity_four.xml" value="0.2" />
+        <entry key="..\:/Users/MAJO/AndroidStudioProjects/EncuentraloApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/MAJO/AndroidStudioProjects/EncuentraloApp/app/src/main/res/layout/activity_main5.xml" value="0.2" />
+>>>>>>> 81b00e5dd34f7c2e91391c8723cfdd772834bdef
         <entry key="..\:/Users/a2014/AndroidStudioProjects/Encuentralo/app/src/main/res/layout/activity_main.xml" value="0.17" />
       </map>
     </option>

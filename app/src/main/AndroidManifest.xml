@@ -13,6 +13,9 @@
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
             android:name=".FourActivity"
             android:exported="false" />
         <activity
