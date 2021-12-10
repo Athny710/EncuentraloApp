@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Encuentralo">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity5"
+            android:parentActivityName=".FourActivity"
             android:exported="false" />
         <activity
             android:name=".FourActivity"
+            android:parentActivityName=".ThirdActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

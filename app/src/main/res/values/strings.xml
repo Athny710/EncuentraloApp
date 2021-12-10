@@ -17,8 +17,19 @@
     <string name="img2_descrition">IMG2</string>
     <string name="img3_descrition">IMG3</string>
 
+
+    <string name = "ordenar">Ordenar por</string>
+    <string name = "valoracion">Valoración</string>
+    <string name = "distancia">Distancia</string>
+    <string name = "buscar">Buscar</string>
+    <string name = "chilis">Chilis</string>
+    <string name = "distanciarest">Distancia: 0.3 Km</string>
+    <string name = "horaatencion">9:00am a 11:00pm</string>
+    <string name = "estrellas">4.5</string>
+
     <string name="calificacion_zona">Califica la zona:</string>
     <string name="calificacion_exp">Califica tu experiencia:</string>
     <string name="bt_enviar">Enviar</string>
+
 
 </resources>
