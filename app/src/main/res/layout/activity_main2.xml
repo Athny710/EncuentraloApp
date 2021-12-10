@@ -58,26 +58,29 @@
         app:layout_constraintVertical_bias="0.839"
         app:srcCompat="@drawable/entre"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="-4dp" />
+        tools:layout_editor_absoluteX="-3dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="411dp"
         android:layout_height="102dp"
+        android:layout_marginTop="628dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/super2"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="629dp" />
+        tools:layout_editor_absoluteX="1dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="231dp"
         android:layout_height="34dp"
         android:text="Escoja su Opcion"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
