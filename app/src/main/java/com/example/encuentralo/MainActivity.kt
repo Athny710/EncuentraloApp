@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnIngresar.setOnClickListener {
-            val myIntent = Intent(this, MainActivity::class.java)
+            val myIntent = Intent(this, ThirdActivity::class.java)
             startActivity(myIntent)
         }
 
