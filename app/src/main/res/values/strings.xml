@@ -4,4 +4,21 @@
     <string name="ac1_registrarse">Registrarse</string>
     <string name="ac1_usuario">Usuario o Correo</string>
     <string name="ac1_pass">Contraseña</string>
+    <string name="establecimiento">Chili\'s</string>
+    <string name="zona_calif">Clasificación de la zona:</string>
+    <string name="btn_fav">Agregar a favoritos</string>
+    <string name="zona_type">Segura</string>
+    <string name="direccion">Dirección</string>
+    <string name="direccion_2">Avenida Javier Prado 4200</string>
+    <string name="direccion_3">Centro Comercial Jockey Plaza</string>
+    <string name="direccion_4">Santiago de Surco</string>
+    <string name="btn_description">Encontrar</string>
+    <string name="img1_descrition">IMG1</string>
+    <string name="img2_descrition">IMG2</string>
+    <string name="img3_descrition">IMG3</string>
+
+    <string name="calificacion_zona">Califica la zona:</string>
+    <string name="calificacion_exp">Califica tu experiencia:</string>
+    <string name="bt_enviar">Enviar</string>
+
 </resources>
