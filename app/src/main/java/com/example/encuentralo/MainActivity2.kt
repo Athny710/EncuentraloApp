@@ -12,6 +12,8 @@ class MainActivity2 : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.imageButton3.setOnClickListener {
+            //Aqui va el activity de la tercera parte
+            //Reemplazar el ActivityMain2Binding por el de la actividad 3 (vista 3)
             val myIntent = Intent(this, ActivityMain2Binding::class.java)
             startActivity(myIntent)
         }
