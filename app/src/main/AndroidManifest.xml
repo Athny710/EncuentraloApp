@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Encuentralo">
         <activity
             android:name=".ThirdActivity"
+            android:parentActivityName=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity5"
